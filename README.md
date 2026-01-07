@@ -61,18 +61,18 @@ flutter run
 - **Notes par semestre** : Support Licence (S1-S6), Master, DEUST, DUT, Doctorat
 - **Filtrage avancé** : Diplôme, moyenne, statut de profil
 - **Analytics** : Statistiques globales et par diplôme
-- **OCR** : Extraction automatique (CIN, BAC, Relevé de notes)
-- **Rôles** : ETUDIANT et ADMIN (RECRUTEUR supprimé)
+- **OCR** : Extraction automatique (CIN, BAC)
+- **Rôles** : ETUDIANT et ADMIN 
 
 ### Frontend ✅
 
-- **Thème moderne UCA** : Bleu universitaire #003D7A, glassmorphism
+- **Thème moderne** : Bleu universitaire #003D7A, glassmorphism
 - **Dashboard Admin** :
   - Vue d'ensemble avec 4 stat cards
   - Table étudiants avec filtres
   - NavigationRail moderne
 - **Registration** : Inscription étudiant uniquement
-- **Profile** : Wizard 4 étapes (à compléter côté API)
+- **Profile** : Wizard 4 étapes 
 
 ---
 
@@ -125,7 +125,7 @@ project/
 
 ## 🎨 Design System
 
-### Palette UCA
+### Palette 
 - **Primary Blue** : `#003D7A`
 - **Accent Cyan** : `#00A3E0`
 - **Success** : `#10B981`
@@ -167,50 +167,6 @@ project/
 
 ---
 
-## ✅ Ce qui est terminé
-
-### Backend (95%)
-- [x] Modèles complets (User, StudentProfile, SemesterGrade, Offre)
-- [x] Rôles simplifiés (ETUDIANT, ADMIN)
-- [x] Endpoints admin analytics
-- [x] Filtrage et pagination
-- [x] Service OCR (CIN, BAC, Relevé)
-
-### Frontend (70%)
-- [x] Thème moderne UCA
-- [x] Dashboard admin avec stats
-- [x] Vue étudiants avec table et filtres
-- [x] Registration simplifié (étudiant uniquement)
-- [x] Profile completion wizard
-- [ ] Intégration API complète
-- [ ] Upload documents réel
-- [ ] Vue détails étudiant
-
----
-
-## 🔜 À Compléter
-
-### Court terme (2-4h)
-1. **Connecter API au frontend**
-   - StudentsView → GET /admin/students
-   - Dashboard stats → GET /admin/statistics
-   
-2. **Upload documents**
-   - Implémenter image picker
-   - POST vers /profile/complete
-
-3. **Navigation profil**
-   - Rediriger vers ProfileCompletionScreen si profil incomplet
-   - Vérifier statut avant candidatures
-
-### Moyen terme (4-6h)
-1. **Vue détails étudiant**
-   - Notes par semestre
-   - Graphiques d'évolution
-   
-2. **Gestion offres admin**
-   - Création/édition offres
-   - CRUD complet
 
 3. **Tests**
    - Flow étudiant complet
@@ -264,22 +220,15 @@ URL: http://localhost:8000/docs
 
 ---
 
-## 📚 Documentation
 
-- **API** : http://localhost:8000/docs (Swagger UI)
-- **Implementation Plan** : `brain/implementation_plan.md`
-- **Walkthrough** : `brain/walkthrough.md`
-- **Tasks** : `brain/task.md`
-
----
 
 ## 👥 Contributeurs
+LAHROUF HIBA
+CHAIRA HAJAR 
+BOUDHIH HAJAR 
 
-Développé pour transformer une application scolaire basique en système universitaire moderne.
 
-## 📄 Licence
-
-MIT<img width="371" height="825" alt="28" src="https://github.com/user-attachments/assets/8e80c520-224a-4efe-9692-b48d635f87f0" />
+<img width="371" height="825" alt="28" src="https://github.com/user-attachments/assets/8e80c520-224a-4efe-9692-b48d635f87f0" />
 <img width="957" height="72" alt="27" src="https://github.com/user-attachments/assets/8e239654-62ed-40bf-a1b5-47c4a46069cc" />
 <img width="372" height="835" alt="26" src="https://github.com/user-attachments/assets/fd8cb2da-6bca-4175-b83b-8fc2c8a79b55" />
 <img width="848" height="97" alt="25" src="https://github.com/user-attachments/assets/120dab78-ed8a-4a84-8b54-4106c1931f5d" />
